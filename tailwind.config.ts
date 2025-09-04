@@ -7,6 +7,7 @@ const config = {
   theme: {
     extend: {
       colors: {
+        // ========== EXISTING TOKEN SETUP (keep) ==========
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -39,6 +40,17 @@ const config = {
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
+        },
+
+        // ========== TACSIA BRAND SHORTCUTS (new) ==========
+        brand: {
+          navy:  '#102C6E', // wordmark / headings
+          deep:  '#175C99', // darkest blue accent
+          sky:   '#629CDA', // gradient end / hovers
+          lilac: '#9CAAD7', // subtle backgrounds
+          ice:   '#A9CDE6', // very light bg / chips
+          teal:  '#00B4D8', // optional CTA accent
+          white: '#FFFFFF',
         },
       },
       borderRadius: {
